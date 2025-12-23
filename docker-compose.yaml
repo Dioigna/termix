@@ -5,9 +5,8 @@ services:
     container_name: termix
     restart: unless-stopped
     ports:
-      - "8200:8080"
+      - "8300:8080"
     volumes:
       - ./termix-data:/app/data
     environment:
       PORT: "8080"
-
